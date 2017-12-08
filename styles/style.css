@@ -1,0 +1,52 @@
+/*
+
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 15px;
+}
+
+background-image: url("images/gradient.jpg");
+background-color: lightblue;
+
+*/
+body {
+  background-image: url(../images/gradient.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+
+th {
+  color:#d6d6d6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75%;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  padding: 15px;
+  background-color: #1c1c1c;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75%;
+  padding: 15px;
+  background-color: #d6d6d6;
+  font-weight: bold;
+  text-align: center;
+}
+
+th, td {
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+table {
+  padding: 5px;
+  
+}
